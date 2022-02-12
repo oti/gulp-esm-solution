@@ -35,7 +35,7 @@ export const image = () =>
 
 ## 解決方法
 
-1. gulp-imagemin を v7.1.0 にダウングレードする [`./use-gulp-imagemin-v7`](./use-gulp-imagemin-v7)
+1. gulp-imagemin を v7.1.0 にダウングレードする [`./use-gulp-imagemin-v7/`](./use-gulp-imagemin-v7/)
 2. package.json に `"type": "module"` を追加する [`./use-type-module/`](./use-type-module/)
 3. タスクファイルの拡張子を全て `.mjs` にする [`./use-mjs/`](./use-mjs)
 
