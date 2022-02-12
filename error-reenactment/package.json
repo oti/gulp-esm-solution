@@ -1,0 +1,15 @@
+{
+  "name": "error-reenactment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^8.0.0"
+  }
+}
