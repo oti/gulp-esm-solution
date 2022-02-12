@@ -15,4 +15,4 @@ npx gulp
 
 Success!
 
-[↩︎ 戻る](/oti/gulp-imagemin-with-esm)
+[↩︎ 戻る](https://github.com/oti/gulp-imagemin-with-esm)
