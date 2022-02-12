@@ -56,4 +56,4 @@ gulpfile.esm.js が要求する esm モジュールは `import/export` 構文し
 
 ということで、 `gulpfile.esm.js`（esm モジュール利用）では gulp-imagemin v8.0.0 は動かない、がファイナルアンサーです。
 
-[↩︎ 戻る](../)
+[↩︎ 戻る](/oti/gulp-imagemin-with-esm)
