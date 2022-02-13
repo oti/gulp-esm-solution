@@ -75,3 +75,6 @@ Local version: 4.0.2
 
 オッケー！
 
+---
+
+Specail thanks [@watilde](https://github.com/watilde)
