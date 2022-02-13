@@ -46,3 +46,32 @@ export const image = () =>
 https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
 > Stay on the existing version of the package until you can move to ESM.
+
+## No gulpfile found エラー
+
+gulp v4 で `.mjs` や `type: module` を利用したいのに `No fulpfile found` エラーになる場合があります。
+
+おそらく gulp-cli のバージョンが v2.3.0 になっていないと思われます。
+
+```zsh
+npx gulp
+[16:05:46] No gulpfile found
+
+npx gulp -v
+CLI version: 2.2.0 // <= bad
+Local version: 4.0.2
+```
+
+package-lock.json を削除してから `npm i` を実行すると、gulp-cli もアップデートされます。
+
+```zsh
+rm -f package-lock.json
+npm i
+npx gulp -v
+
+CLI version: 2.3.0 // <= good
+Local version: 4.0.2
+```
+
+オッケー！
+
