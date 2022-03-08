@@ -77,4 +77,4 @@ Local version: 4.0.2
 
 ---
 
-Specail thanks [@watilde](https://github.com/watilde)
+Special thanks [@watilde](https://github.com/watilde)
