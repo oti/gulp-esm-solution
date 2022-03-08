@@ -8,7 +8,7 @@ gulp-imagemin v8.0.0 を ESM 環境下で利用する際の、エラー再現と
 
 ```zsh
 mv gulpfile.js gulpfile.esm.js
-npm i -D gulp gulo-imagemin esm
+npm i -D esm gulp gulp-imagemin
 ```
 
 ```js
